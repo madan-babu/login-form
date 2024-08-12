@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transparentlogin page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+            background-size: cover;
+            box-sizing: border-box;
+            
+        }
+        .mad{
+            
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            height: 400px;
+            width: 400px;
+            text-align: center;
+            position: absolute;
+            top: 150px;
+            left: 450px;
+            border: 1px solid black;
+            border-radius: 10px;
+
+
+
+        }
+        input[type="text"],input[type="password"]{
+            border-radius:25px ;
+            padding: 6px;
+            width: 270px;
+            margin-bottom: 15px;
+            height: 25px;
+            background-color:  rgba(0, 0, 0, 0.4);
+            color: aliceblue;
+
+
+        }
+        button{
+            border-radius:25px ;
+            padding: 6px;
+            width: 250px;
+            cursor: pointer;
+            margin-top: 40px;
+
+        }
+        button:hover{
+            background-color:gray;
+            color: aliceblue;
+        }
+        
+        i{
+            position: absolute;
+            padding: 14Px;
+            left: 300px;
+            cursor: pointer;
+        
+        }
+        input[type="checkbox"]{
+            position: absolute;
+            left: 15%;
+        
+        }
+        label{
+            position: absolute;
+            left: 20%;
+        }
+        p{
+            position: absolute;
+            right: 16%;
+            top: 44%;
+        }
+        .no{
+            position: absolute;
+            top: 67%;
+            left: 1%;
+
+        }
+        h4{
+            text-align: right;
+            position: absolute;
+            right: 24%;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    
+
+    <div class="mad">
+        <form action="" class="loginpage">
+            <h1>Login</h1>
+            <input type="text" name="user" id="san" placeholder="Username"> <i class="fa-solid fa-user" ></i>
+            <br>
+            <input type="password" name="Password" id="san1" placeholder="password"> <i class="fa-solid fa-lock"></i>
+            <br>
+            <input type="checkbox" id="san2">
+            <label for="san2">Remember me</label> 
+            <p>Forgot Password ?</p>
+            <button>Login</button><br> 
+            <p class="no">Dont have an acount ?</p><h4>Register</h4>
+
+
+        </form>
+    </div>
+</body>
+</html>
